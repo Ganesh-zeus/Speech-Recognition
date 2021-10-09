@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speech Recognition</title>
+
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="container">
+    <div class="mt-2" style="margin-bottom:4rem;">
+        <h2 class="text-center display-3">Speech Recognition using JavaScript</h2>
+    </div>
+
+    <div class="my-4">
+      <label for="transcript" class="form-label h3">Transcript</label>
+      <textarea class="form-control" id="transcript" rows="6"></textarea>
+    </div>
+
+    <div class="text-center">
+        <button id="start-btn" class="btn btn-success">Start</button>
+        <button id="stop-btn" class="btn btn-danger">Stop</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
